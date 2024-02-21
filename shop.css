@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.navbar1 {
+    padding-left: 25px;
+    padding-right: 35px;
+}
+
+.navbar1 img {
+    width: 80px;
+}
+
+.navbar a {
+    padding-top: 50px;
+    padding-right: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+/* header end  */
+.main {
+    width: 100%;
+}
+
+.main .banner {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main .banner img {
+    width: 100%;
+}
+.main .banner:hover img{
+    transform: scale(1.1);
+}
+/* banner ebd  */
+.prd{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.prd .lt{
+    width: 50%;
+    overflow: hidden;
+}
+.prd .rt{
+    width: 50%;
+}
+.prd .lt img{
+    width: 100%;
+}
+.prd .lt:hover img{
+    transform: scale(1.1);
+}
+.prd .rt img{
+    width: 100%;
+}
+.prd .rt .prd1{
+    width: 100%;
+    margin-top: -5px;
+}
+/* pd 1 end  */
+.prd2{
+    width: 100%;
+    display: flex;
+    margin-top: -5px;
+}
+.prd2 .lt2{
+    width: 50%;
+    overflow: hidden;
+}
+.prd2 .rt2{
+    width: 50%;
+}
+.prd2 .lt2 img{
+    width: 100%;
+}
+.prd2 .lt2:hover img{
+    transform: scale(1.1);
+}
+.prd2 .rt2 img{
+    width: 100%;
+}
+.prd2 .rt2 .prd3{
+    width: 100%;
+    margin-top: -5px;
+}
+   /* pd 2 end  */
